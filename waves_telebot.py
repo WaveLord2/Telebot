@@ -516,7 +516,7 @@ class PlacesMan():
         return text
 
 
-token = '1934992652:AAGRBqptF7puyZSETtt139aKBCwVjbEJHUg'
+token = ''
 bot = telebot.TeleBot(token)
 db_engine = DBEngine('wavebot.db')
 tracks_man = TracksMan(db_engine) 
